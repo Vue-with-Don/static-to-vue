@@ -10,21 +10,21 @@
     <form method="post" action="#">
       <div class="fields">
         <div class="field">
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" />
+          <div>NAME</div>
+          <input type="text" name="name" />
         </div>
         <div class="field">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
+          <div>EMAIL</div>
+          <input type="email" name="email" />
         </div>
         <div class="field">
-          <label for="message">Message</label>
-          <textarea name="message" id="message" rows="4"></textarea>
+          <div>MESSAGE</div>
+          <textarea name="message" rows="4"></textarea>
         </div>
       </div>
-      <ul class="actions">
-        <li><input type="submit" value="Send Message" /></li>
-      </ul>
+      <div class="actions">
+        <input type="button" value="Send Message" />
+      </div>
     </form>
   </div>
 </template>
