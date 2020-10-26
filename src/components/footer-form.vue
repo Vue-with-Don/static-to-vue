@@ -10,20 +10,17 @@
     <form method="post" action="#">
       <div class="fields">
         <div class="field">
-          <div>NAME</div>
-          <input type="text" name="name" />
+          <label><input type="text" name="name" /></label>	
         </div>
         <div class="field">
-          <div>EMAIL</div>
-          <input type="email" name="email" />
+          <label><input type="email" name="email" /></label>
         </div>
         <div class="field">
-          <div>MESSAGE</div>
-          <textarea name="message" rows="4"></textarea>
+          <label><textarea name="message" rows="4"></textarea></label>
         </div>
       </div>
       <div class="actions">
-        <input type="button" value="Send Message" />
+        <button value="Send Message" />
       </div>
     </form>
   </div>
