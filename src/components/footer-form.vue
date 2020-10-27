@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="actions">
-        <button value="Send Message" />
+        <button>Send Message</button>
       </div>
     </form>
   </div>
